@@ -1,0 +1,32 @@
+{
+    "[development]": {
+        "auth": {
+            "passport": {
+                "strategy": "mock",
+                "users": {
+                    "viewer@tester.sap.com": {
+                        "password": "initial",
+                        "ID": "viewer@tester.sap.com",
+                        "roles": [
+                            "Viewer"
+                        ]
+                    },
+                    "developer@tester.sap.com": {
+                        "password": "initial",
+                        "ID": "developer@tester.sap.com",
+                        "roles": [
+                            "Developer"
+                        ]
+                    },
+                    "ingo": {
+                        "password": "1234",
+                        "ID": "ingo",
+                        "roles": [
+                            "Developer"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
